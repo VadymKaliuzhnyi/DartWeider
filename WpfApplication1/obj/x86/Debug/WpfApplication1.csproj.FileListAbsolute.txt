@@ -1,0 +1,295 @@
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\WpfApplication1.exe.config
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\WpfApplication1.exe
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\WpfApplication1.pdb
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Collections.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Common.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.ComponentModel.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Configuration.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Data.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Serialization.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Xaml.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Algo.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.BusinessEntities.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Logging.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Quik.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\PowerCollections.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\SmartFormat.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Reflection.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Transactions.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ClrPatch.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Interop.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ookii.Dialogs.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Community.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\HtmlAgilityPack.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Security.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\LumiSoft.Net.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\DotNetDBF.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Net.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Serialization.FieldFactories.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\log4net.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Google.GData.Calendar.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Google.GData.Client.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Google.GData.Extensions.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ManagedWinapi.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NDde.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Hardcodet.Wpf.GenericTreeView.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NPOI.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Web.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Google.GData.AccessControl.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Algo.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.BusinessEntities.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Logging.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Quik.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\PowerCollections.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ookii.Dialogs.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Community.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\HtmlAgilityPack.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\LumiSoft.Net.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\DotNetDBF.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\log4net.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Hardcodet.Wpf.GenericTreeView.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\MainWindow.baml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\MainWindow.g.cs
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\App.g.cs
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
+C:\Users\vadim\Desktop\DartWeider_old\DartWeider\WpfApplication1\bin\x86\Debug\WpfApplication1.exe.config
+C:\Users\vadim\Desktop\DartWeider_old\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\vadim\Desktop\DartWeider_old\DartWeider\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Data.Providers.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Localization.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.Reflection.Aspects.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Ecng.UnitTesting.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Alerts.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Licensing.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Messages.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Charting.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Diagram.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Extended.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MoreLinq.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Npgsql.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NPOI.OOXML.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Editors.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MathNet.Numerics.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NCalc.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\xNet.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MaasOne.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MaasOne.Yahoo.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\SevenZipSharp.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\AutomaticUpdaterWPF.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Gma.DataStructures.StringSearch.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Abt.Controls.SciChart.Wpf.2.3.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Northwoods.GoWPF.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Docking.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Navigation.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Addons.DotNet.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NPOI.OpenXml4Net.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Antlr3.Runtime.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.LLParser.Wpf.dll
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Alerts.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Licensing.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Messages.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Charting.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Diagram.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Extended.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MoreLinq.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Npgsql.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NPOI.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NPOI.OOXML.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Editors.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MathNet.Numerics.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\xNet.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MaasOne.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\MaasOne.Yahoo.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\AutomaticUpdaterWPF.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Abt.Controls.SciChart.Wpf.2.3.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\Northwoods.GoWPF.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Docking.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Navigation.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Addons.DotNet.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Wpf.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\NPOI.OpenXml4Net.xml
+C:\Users\vadim\Desktop\DartWeider\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.LLParser.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\WpfApplication1.exe.config
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\WpfApplication1.exe
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\WpfApplication1.pdb
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Collections.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Common.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.ComponentModel.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Configuration.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Data.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Data.Providers.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Interop.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Localization.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Net.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Reflection.Aspects.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Reflection.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Security.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Serialization.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Serialization.FieldFactories.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Transactions.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.UnitTesting.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Web.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ecng.Xaml.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Alerts.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Algo.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.BusinessEntities.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Licensing.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Logging.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Messages.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Quik.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Charting.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Diagram.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Extended.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\PowerCollections.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\SmartFormat.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MoreLinq.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Npgsql.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NDde.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NPOI.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NPOI.OOXML.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ManagedWinapi.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Xceed.Wpf.Toolkit.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ClrPatch.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ookii.Dialogs.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Shared.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Editors.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Community.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MathNet.Numerics.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NCalc.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\xNet.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\HtmlAgilityPack.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\LumiSoft.Net.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\DotNetDBF.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MaasOne.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MaasOne.Yahoo.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\SevenZipSharp.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Newtonsoft.Json.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ionic.Zip.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\log4net.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Google.GData.Calendar.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Google.GData.Client.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Google.GData.Extensions.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Hardcodet.Wpf.GenericTreeView.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\AutomaticUpdaterWPF.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Gma.DataStructures.StringSearch.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Abt.Controls.SciChart.Wpf.2.3.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Northwoods.GoWPF.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Docking.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Navigation.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Addons.DotNet.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NPOI.OpenXmlFormats.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NPOI.OpenXml4Net.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Antlr3.Runtime.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Google.GData.AccessControl.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.LLParser.Wpf.dll
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Alerts.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Algo.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.BusinessEntities.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Licensing.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Logging.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Messages.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Quik.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Charting.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Diagram.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Xaml.Extended.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\PowerCollections.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MoreLinq.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Npgsql.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NPOI.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NPOI.OOXML.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Ookii.Dialogs.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Shared.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Editors.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\StockSharp.Community.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MathNet.Numerics.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\xNet.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\HtmlAgilityPack.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\LumiSoft.Net.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\DotNetDBF.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MaasOne.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\MaasOne.Yahoo.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Newtonsoft.Json.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\log4net.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Hardcodet.Wpf.GenericTreeView.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\AutomaticUpdaterWPF.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Abt.Controls.SciChart.Wpf.2.3.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Northwoods.GoWPF.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Docking.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Navigation.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Addons.DotNet.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\NPOI.OpenXml4Net.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\bin\x86\Debug\ActiproSoftware.Text.LLParser.Wpf.xml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\MainWindow.baml
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\MainWindow.g.cs
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\App.g.cs
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+D:\development\DW + Биржа\DartWeider (новые библиотеки)\WpfApplication1\obj\x86\Debug\WpfApplication1.csproj.GenerateResource.Cache

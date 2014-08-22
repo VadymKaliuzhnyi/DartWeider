@@ -1,0 +1,1283 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StockSharp.Xaml.Extended</name>
+    </assembly>
+    <members>
+        <member name="T:StockSharp.Xaml.BaseApplication">
+            <summary>
+            Базовый класс для WPF приложений.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.BaseApplication.#ctor">
+            <summary>
+            Инициализировать <see cref="T:StockSharp.Xaml.BaseApplication"/>.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.BaseApplication.AppDataPath">
+            <summary>
+            Путь к директории с настройками.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.BaseApplication.PlatformConfigurationFile">
+            <summary>
+            Путь к конфигурационному файлу определения платформы.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.BaseApplication.OnStartup(System.Windows.StartupEventArgs)">
+            <summary>
+            Обработка запуска приложения.
+            </summary>
+            <param name="e">Аргумент.</param>
+        </member>
+        <member name="P:StockSharp.Xaml.BaseApplication.ShowExceptions">
+            <summary>
+            Показывать на экран ошибки, или только передавать их в <see cref="T:StockSharp.Logging.LogManager"/>. По-умолчанию ошибки показываются.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.BaseApplication.ExtendedFeaturesX86">
+            <summary>
+            Расширенные функциональности для платформы x86, которые будут отображены в окне <see cref="T:StockSharp.Xaml.TargetPlatformWindow"/>.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.BaseApplication.ExtendedFeaturesX64">
+            <summary>
+            Расширенные функциональности для платформы x64, которые будут отображены в окне <see cref="T:StockSharp.Xaml.TargetPlatformWindow"/>.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.BaseApplication.AppIcon">
+            <summary>
+            Иконка приложения.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.BaseApplication.CheckTargetPlatform">
+            <summary>
+            Проверять ли платформу при запуске.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.ExtendedExtensions">
+            <summary>
+            Вспомогательный класс.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.ExtendedExtensions.SaveLayout(ActiproSoftware.Windows.Controls.Docking.DockSite)">
+            <summary>
+            Сохранить разметку Docking панели.
+            </summary>
+            <param name="dockSite">Docking панель.</param>
+            <returns>Разметка ввиде строки.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.ExtendedExtensions.LoadLayout(ActiproSoftware.Windows.Controls.Docking.DockSite,System.String)">
+            <summary>
+            Загрузить разметку для Docking панели.
+            </summary>
+            <param name="dockSite">Docking панель.</param>
+            <param name="layout">Разметка ввиде строки.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.ExtendedExtensions.SaveLayout(ActiproSoftware.Windows.Controls.Navigation.NavigationBar)">
+            <summary>
+            Сохранить разметку NavigationBar панели.
+            </summary>
+            <param name="navigationBar">NavigationBar панель.</param>
+            <returns>Разметка ввиде строки.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.ExtendedExtensions.LoadLayout(ActiproSoftware.Windows.Controls.Navigation.NavigationBar,System.String)">
+            <summary>
+            Загрузить разметку для NavigationBar панели.
+            </summary>
+            <param name="navigationBar">NavigationBar панель.</param>
+            <param name="layout">Разметка ввиде строки.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.ExtendedExtensions.CompileCode(Ecng.Common.Languages,System.String,System.String,System.Collections.Generic.IEnumerable{StockSharp.Xaml.CodeReference},System.String,System.String)">
+            <summary>
+            Скомпилировать код.
+            </summary>
+            <param name="language">Язык программирования.</param>
+            <param name="code">Код.</param>
+            <param name="name">Имя сборки.</param>
+            <param name="references">Ссылки.</param>
+            <param name="outDir">Директория, куда будет сохранена скомпилированная сборка.</param>
+            <param name="tempPath">Временная директория.</param>
+            <returns>Результат компиляции.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.ExtendedExtensions.HasErrors(Ecng.Common.CompilationResult)">
+            <summary>
+            Есть ли ошибки в результате компиляции.
+            </summary>
+            <param name="result">Результат компиляции.</param>
+            <returns><see langword="true"/> - если ошибки есть, <see langword="true"/> - если компиляция выполнена без ошибок.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.ExtendedExtensions.GetDefaultReferences(System.String[])">
+            <summary>
+            Получить ссылки по-умолчанию.
+            </summary>
+            <returns>Ссылки по-умолчанию.</returns>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.ChartPanel">
+            <summary>
+            Расширенный графический компонент отображения свечных графиков.
+            </summary>
+            <summary>
+            ChartPanel
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartPanel.RegisterOrderCommand">
+            <summary>
+            Команда на регистрацию заявки.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartPanel.SettingsCommand">
+            <summary>
+            Команда на настройки графика.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.ChartPanel"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.ContainsSource(StockSharp.Xaml.Charting.IChartElement)">
+            <summary>
+            Проверить содержат ли настройки источник данных для элемента.
+            </summary>
+            <param name="element">Элемент графика.</param>
+            <returns>True, если содержат. Иначе, false.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.GetSource``1(StockSharp.Xaml.Charting.IChartElement)">
+            <summary>
+            Получить источник данных для элемента графика.
+            </summary>
+            <typeparam name="TData">Тип данных.</typeparam>
+            <param name="element">Элемент графика.</param>
+            <returns>Источник данных.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.Save(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Сохранить настройки.
+            </summary>
+            <param name="settings">Хранилище настроек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.Load(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Загрузить настройки.
+            </summary>
+            <param name="settings">Хранилище настроек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.Reset(System.Collections.Generic.IEnumerable{StockSharp.Xaml.Charting.IChartElement})">
+            <summary>
+            Сбросить отрисованные ранее значения элементов графика.
+            </summary>
+            <param name="elements">Элементы графика.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.ProcessValues(System.Collections.Generic.IDictionary{System.DateTime,System.Collections.Generic.IDictionary{StockSharp.Xaml.Charting.IChartElement,System.Object}})">
+            <summary>
+            Обработать новые данные.
+            </summary>
+            <param name="values">Новые данные.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.AddElement(StockSharp.Xaml.Charting.IChartElement,StockSharp.Algo.Candles.CandleSeries)">
+            <summary>
+            Добавить элемент на график.
+            </summary>
+            <param name="element">Элемент.</param>
+            <param name="series">Серия свечек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.RemoveElement(StockSharp.Xaml.Charting.IChartElement)">
+            <summary>
+            Удалить элемент с графика.
+            </summary>
+            <param name="element">Элемент.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.AddOrderElement(StockSharp.Xaml.Charting.ChartOrderElement,StockSharp.BusinessEntities.Security)">
+            <summary>
+            Добавить элемент на график.
+            </summary>
+            <param name="element">Элемент.</param>
+            <param name="security">Инструмент.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.RemoveOrderElement(StockSharp.Xaml.Charting.ChartOrderElement)">
+            <summary>
+            Удалить элемент с графика.
+            </summary>
+            <param name="element">Элемент.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.AddTradeElement(StockSharp.Xaml.Charting.ChartTradeElement,StockSharp.BusinessEntities.Security)">
+            <summary>
+            Добавить элемент на график.
+            </summary>
+            <param name="element">Элемент.</param>
+            <param name="security">Инструмент.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.RemoveTradeElement(StockSharp.Xaml.Charting.ChartTradeElement)">
+            <summary>
+            Удалить элемент с графика.
+            </summary>
+            <param name="element">Элемент.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartPanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.SettingsChanged">
+            <summary>
+            Событие изменения настроек графика.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.RegisterOrder">
+            <summary>
+            Событие регистрации заявки с графика.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.SubscribeDataSeries">
+            <summary>
+            Событие подписки на получение данных для элемента.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.UnsubscribeDataSeries">
+            <summary>
+            Событие отписки от получения данных для элемента.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.SubscribeOrders">
+            <summary>
+            Событие подписки на получение данных для элемента.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.UnsubscribeOrders">
+            <summary>
+            Событие отписки от получения данных для элемента.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.SubscribeMyTrades">
+            <summary>
+            Событие подписки на получение данных для элемента.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.UnsubscribeMyTrades">
+            <summary>
+            Событие отписки от получения данных для элемента.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartPanel.Elements">
+            <summary>
+            Элементы графика.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartPanel.IsInteracted">
+            <summary>
+            Интерактивный режим.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartPanel.IndicatorTypes">
+            <summary>
+            Список доступных типов индикаторов.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartPanel.IsStarted">
+            <summary>
+            Запущен ли отрисовка графика.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.ChartPanel.StartedStopped">
+            <summary>
+            Событие запуска или остановки отрисовки.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartPanel.Areas">
+            <summary>
+            Области графика.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartPanel.IsAutoScroll">
+            <summary>
+            Скроллировать автоматически области <see cref="P:StockSharp.Xaml.Charting.IChart.Areas"/> при появлении новых данных. По-умолчанию включено.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.ChartSettingsWindow">
+            <summary>
+            Графический компонент для редактирования настроек графика.
+            </summary>
+            <summary>
+            ChartSettingsWindow
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.AddSourceCommand">
+            <summary>
+            Команда для добавления источника данных.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.RemoveSourceCommand">
+            <summary>
+            Команда для удаления источника данных.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.AddAreaCommand">
+            <summary>
+            Команда для добавления области на график.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.RemoveAreaCommand">
+            <summary>
+            Команда для удаления области на графике.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.AddIndicatorCommand">
+            <summary>
+            Команда для добавления индикатора на график.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.RemoveIndicatorCommand">
+            <summary>
+            Команда для удаления индикатора.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.AddCandlesCommand">
+            <summary>
+            Команда для добавления серии свечек на график.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.RemoveCandlesCommand">
+            <summary>
+            Команда для удаления серии свечек.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.AddTransactionCommand">
+            <summary>
+            Команда для добавления заявок или сделок на график.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.RemoveTransactionCommand">
+            <summary>
+            Команда для удаления заявок или сделок с графика.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.ChartSettingsWindow.OkCommand">
+            <summary>
+            Команда для применения изменений.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartSettingsWindow.#ctor(System.Collections.Generic.IEnumerable{StockSharp.Xaml.Charting.IndicatorType})">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.ChartSettingsWindow"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartSettingsWindow.OnClosed(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Window.Closed"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartSettingsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartSettingsWindow.Areas">
+            <summary>
+            Области на графике.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartSettingsWindow.Indicators">
+            <summary>
+            Элементы индикаторов для отображения на графике.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartSettingsWindow.Candles">
+            <summary>
+            Элемента свечек для отображения на графике.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartSettingsWindow.Sources">
+            <summary>
+            Источники данных для элементов, отображаемых на графике.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartSettingsWindow.TransactionElements">
+            <summary>
+            Элементы заявок и сделок для оторажения на графике.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartSettingsWindow.Settings">
+            <summary>
+            Настройки внешнего вида графика.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.ChartSettingsWindow.ChartAreaSource">
+            <summary>
+            Графический компонент для выбора области на графике.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.ChartSettingsWindow.CandleSource">
+            <summary>
+            Графический компонент для выбора серии свечек.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.CandleChartSource">
+            <summary>
+            Настройки источника данных для графика.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.CandleChartSource.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.CandleChartSource"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.CandleChartSource.ToString">
+            <summary>
+            Получить строковое представление.
+            </summary>
+            <returns>Строковое представление.</returns>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSource.Name">
+            <summary>
+            Название источника данных.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSource.Security">
+            <summary>
+            Инструмент, для которого будут рисоваться свечки.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSource.Settings">
+            <summary>
+            Настройки свечек (тип, параметры).
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSource.From">
+            <summary>
+            Дата начала, с которой источник будет брать данные.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSource.To">
+            <summary>
+            Дата, по которую источник будет брать данные.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSource.Min">
+            <summary>
+            Время, от которого в пределах сессии могут быть созданы свечки.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSource.Max">
+            <summary>
+            Время, до которого в пределах сессии могут быть созданы свечки.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.CandleChartSourceSettings">
+            <summary>
+            Настройки свечек (тип, параметры).
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.CandleChartSourceSettings.#ctor(StockSharp.Xaml.Charting.CandleChartSource)">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.CandleChartSourceSettings"/>.
+            </summary>
+            <param name="parent">Настройки источника данных.</param>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSourceSettings.Security">
+            <summary>
+            Инструмент, по которому необходимо формировать свечки.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSourceSettings.CandleType">
+            <summary>
+            Тип свечки.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.CandleChartSourceSettings.Arg">
+            <summary>
+            Параметр формирования свечки. Например, для <see cref="T:StockSharp.Algo.Candles.TimeFrameCandle"/> это значение <see cref="P:StockSharp.Algo.Candles.TimeFrameCandle.TimeFrame"/>.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.ChartViewSettings">
+            <summary>
+            Настройки внешнего вида графика.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.ChartViewSettings.#ctor(StockSharp.Xaml.Charting.Chart)">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.ChartViewSettings"/>.
+            </summary>
+            <param name="minichart">График.</param>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.ChartViewSettings.ChartTheme">
+            <summary>
+            Тема для графика.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.IndicatorType">
+            <summary>
+            Описание типа индикатора.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.IndicatorType.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.IndicatorType"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.IndicatorType.#ctor(System.Type,System.Type)">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.IndicatorType"/>.
+            </summary>
+            <param name="indicator">Тип индикатора.</param>
+            <param name="painter">Тип рендерера для расширенной отрисовки индиктора.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.IndicatorType.Clone">
+            <summary>
+            Создать копию объекта.
+            </summary>
+            <returns>Копия объекта.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.IndicatorType.OnEquals(StockSharp.Xaml.Charting.IndicatorType)">
+            <summary>
+            Сравнить на эквивалентность.
+            </summary>
+            <param name="other">Тип индикатора, с которым необходимо сделать сравнение.</param>
+            <returns>True, если типы индикаторов равны. Иначе, false.</returns>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.IndicatorType.Load(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Загрузить настройки.
+            </summary>
+            <param name="storage">Хранилище настроек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.IndicatorType.Save(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Сохранить настройки.
+            </summary>
+            <param name="storage">Хранилище настроек.</param>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.IndicatorType.Name">
+            <summary>
+            Название индикатора.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.IndicatorType.Indicator">
+            <summary>
+            Тип индикатора.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.IndicatorType.Painter">
+            <summary>
+            Тип рендерера для расширенной отрисовки индиктора.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.SourcedChartCandleElement">
+            <summary>
+            Настройки свечек.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.SourcedChartCandleElement.Name">
+            <summary>
+            Название источника.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.SourcedChartCandleElement.IsVisible">
+            <summary>
+            Отрисовывать ли на графике.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.SourcedChartCandleElement.Area">
+            <summary>
+            Область графика, в которой необходимо производить отрисовку.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.SourcedChartCandleElement.Source">
+            <summary>
+            Источник данных.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.Charting.SourcedChartCandleElement.PropertyChanged">
+            <summary>
+            Событие изменения значения свойств элемента схемы.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.SourcedChartIndicatorElement">
+            <summary>
+            Настройки индикатора.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.SourcedChartIndicatorElement.IsVisible">
+            <summary>
+            Отрисовывать ли на графике.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.SourcedChartIndicatorElement.Area">
+            <summary>
+            Область графика, в которой необходимо производить отрисовку.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.SourcedChartIndicatorElement.Source">
+            <summary>
+            Источник данных.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.TransactionElementType">
+            <summary>
+            Тип данных (заявки или сделки).
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.TransactionElementType.Orders">
+            <summary>
+            Заявки.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.Charting.TransactionElementType.Trades">
+            <summary>
+            Сделки.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Charting.TransactionElement">
+            <summary>
+            Настройки заявок и сделок.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.Charting.TransactionElement.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.Charting.TransactionElement"/>.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.TransactionElement.Type">
+            <summary>
+            Тип данных.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.TransactionElement.Area">
+            <summary>
+            Область графика, в которой необходимо производить отрисовку.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Charting.TransactionElement.Security">
+            <summary>
+            Инструмент, для которого необходимо отображать данные.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.PortfolioSessionHoldersWindow">
+            <summary>
+            Окно создания редактирования сопоставлений портфелей и адаптеров.
+            </summary>
+            <summary>
+            PortfolioSessionHoldersWindow
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.PortfolioSessionHoldersWindow.RemoveCommand">
+            <summary>
+            <see cref="T:System.Windows.Input.RoutedCommand"/> на удаление сопоставления.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.PortfolioSessionHoldersWindow.AddCommand">
+            <summary>
+            <see cref="T:System.Windows.Input.RoutedCommand"/> на добавление сопоставления.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PortfolioSessionHoldersWindow.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.PortfolioSessionHoldersWindow"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PortfolioSessionHoldersWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.PortfolioSessionHoldersWindow.SessionHolder">
+            <summary>
+            Контейнер для сессии.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Properties.Resources.Launcher_x86">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.Properties.Resources.SampleCandles">
+             <summary>
+               Looks up a localized string similar to 20120917,101000,2016.00000,2018.00000,2014.00000,2018.00000,20048
+            20120917,101500,2018.00000,2018.60000,2016.50000,2018.30000,7295
+            20120917,102000,2017.30000,2018.20000,2016.10000,2016.40000,5625
+            20120917,102500,2017.40000,2025.00000,2016.60000,2021.40000,37287
+            20120917,103000,2022.00000,2022.00000,2019.00000,2020.30000,3938
+            20120917,103500,2020.30000,2021.00000,2018.60000,2019.30000,5316
+            20120917,104000,2018.60000,2019.20000,2016.70000,2016.70000,5236
+            20120917,104500,2016.60000,2016.80000,2015.00000 [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.CandleSettingsEditor">
+            <summary>
+            Редактор для <see cref="T:StockSharp.Algo.Candles.CandleSeries"/>.
+            </summary>
+            <summary>
+            CandleSettingsEditor
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.CandleSettingsEditor.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.CandleSettingsEditor"/>.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.CandleSettingsEditor.SettingsProperty">
+            <summary>
+            <see cref="T:System.Windows.DependencyProperty"/> для <see cref="P:StockSharp.Xaml.CandleSettingsEditor.Settings"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.CandleSettingsEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.CandleSettingsEditor.Settings">
+            <summary>
+            Настройки. По-умолчанию равно настройкам 1 минутных свечек.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.CodePanel">
+            <summary>
+            Визуальная панель для редактирования и компилирования кода.
+            </summary>
+            <summary>
+            CodePanel
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.CodePanel.CompileCommand">
+            <summary>
+            Команда для компиляции кода.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.CodePanel.SaveCommand">
+            <summary>
+            Команда для сохранения кода.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.CodePanel.ReferencesCommand">
+            <summary>
+            Команда для модификации ссылок.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.CodePanel.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.CodePanel"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.CodePanel.ShowCompilationResult(Ecng.Common.CompilationResult,System.Boolean)">
+            <summary>
+            Показать результат компиляции.
+            </summary>
+            <param name="result">Результат компиляции.</param>
+            <param name="isRunning">Запущен ли ранее скопилированный код на исполнение в текущий момент.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.CodePanel.Load(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Загрузить настройки.
+            </summary>
+            <param name="storage">Хранилище настроек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.CodePanel.Save(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Сохранить настройки.
+            </summary>
+            <param name="storage">Хранилище настроек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.CodePanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.CodePanel.Code">
+            <summary>
+            Код.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.CodePanel.References">
+            <summary>
+            Ссылки.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.CodePanel.ReferencesUpdated">
+            <summary>
+            Событие обновления ссылок.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.CodePanel.CompilingCode">
+            <summary>
+            Событие компиляции кода.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.CodePanel.SavingCode">
+            <summary>
+            Событие сохранения кода.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.CodePanel.CanCompile">
+            <summary>
+            Событие проверки возможности компиляции.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.CodeReference">
+            <summary>
+            Ссылка на .NET сборку.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.CodeReference.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.CodeReference"/>.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.CodeReference.Name">
+            <summary>
+            Название сборки.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.CodeReference.Location">
+            <summary>
+            Путь к сборке.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.CodeReferencesWindow">
+            <summary>
+            Окно для редактирования списка ссылок на .NET сборки.
+            </summary>
+            <summary>
+            CodeReferencesWindow
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.CodeReferencesWindow.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.CodeReferencesWindow"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.CodeReferencesWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.CodeReferencesWindow.References">
+            <summary>
+            Ссылки.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.EndPointEditor">
+            <summary>
+            Редактор для <see cref="P:StockSharp.Xaml.EndPointEditor.EndPoint"/>.
+            </summary>
+            <summary>
+            EndPointEditor
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.EndPointEditor.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.EndPointEditor"/>.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.EndPointEditor.EndPointProperty">
+            <summary>
+            DependencyProperty для <see cref="P:StockSharp.Xaml.EndPointEditor.EndPoint"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.EndPointEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.EndPointEditor.EndPoint">
+            <summary>
+            EndPoint.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.PropertyGrid.INotifyPropertiesChanged">
+            <summary>
+            Интерфейс, описывающий тип с переменным количество свойств.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.PropertyGrid.INotifyPropertiesChanged.PropertiesChanged">
+            <summary>
+            Событие изменения доступных свойств.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.PropertyGrid.PropertyGridEx">
+            <summary>
+            Расширенная таблица настроек.
+            </summary>
+            <summary>
+            PropertyGridEx
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PropertyGrid.PropertyGridEx.OnSelectedObjectChanged(System.Object,System.Object)">
+            <summary>
+            Обработчик изменения значения.
+            </summary>
+            <param name="oldValue">Предыдущее значение.</param>
+            <param name="newValue">Новое значение.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.PropertyGrid.PropertyGridEx.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.PropertyGrid.PropertyGridEx"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PropertyGrid.PropertyGridEx.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.PropertyGrid.PropertyGridEx.AutoExpandProperties">
+            <summary>
+            Раскрывать вложенные свойства по-умолчанию.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.PropertyGrid.SecurityTypesComboBoxEditor">
+            <summary>
+            <see cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Editors.ITypeEditor"/> для <see cref="T:StockSharp.Xaml.SecurityTypesComboBox"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PropertyGrid.SecurityTypesComboBoxEditor.SetValueDependencyProperty">
+            <summary>
+            Установить <see cref="P:Xceed.Wpf.Toolkit.PropertyGrid.Editors.TypeEditor`1.ValueProperty"/> значением <see cref="F:StockSharp.Xaml.SecurityTypesComboBox.SelectedTypesProperty"/>.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.PropertyGrid.FileBrowserEditor">
+            <summary>
+            <see cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Editors.ITypeEditor"/> для <see cref="T:StockSharp.Xaml.FileBrowserPicker"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PropertyGrid.FileBrowserEditor.SetValueDependencyProperty">
+            <summary>
+            Установить <see cref="P:Xceed.Wpf.Toolkit.PropertyGrid.Editors.TypeEditor`1.ValueProperty"/> значением <see cref="F:StockSharp.Xaml.FileBrowserPicker.FileProperty"/>.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.PropertyGrid.FolderBrowserEditor">
+            <summary>
+            <see cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Editors.ITypeEditor"/> для <see cref="T:StockSharp.Xaml.FolderBrowserPicker"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PropertyGrid.FolderBrowserEditor.SetValueDependencyProperty">
+            <summary>
+            Установить <see cref="P:Xceed.Wpf.Toolkit.PropertyGrid.Editors.TypeEditor`1.ValueProperty"/> значением <see cref="F:StockSharp.Xaml.FolderBrowserPicker.FolderProperty"/>.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.PropertyGrid.Level1FieldsComboBoxEditor">
+            <summary>
+            <see cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Editors.ITypeEditor"/> для <see cref="T:StockSharp.Xaml.Level1FieldsComboBox"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.PropertyGrid.Level1FieldsComboBoxEditor.SetValueDependencyProperty">
+            <summary>
+            Установить <see cref="P:Xceed.Wpf.Toolkit.PropertyGrid.Editors.TypeEditor`1.ValueProperty"/> значением <see cref="F:StockSharp.Xaml.Level1FieldsComboBox.SelectedFieldsProperty"/>.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.SecurityCreateWindow">
+            <summary>
+            Окно для создания и редактирования <see cref="P:StockSharp.Xaml.SecurityCreateWindow.Security"/>.
+            </summary>
+            <summary>
+            SecurityCreateWindow
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SecurityCreateWindow.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.SecurityCreateWindow"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SecurityCreateWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SecurityCreateWindow.ValidateId">
+            <summary>
+            Обработчик, проверяющий доступность введенного идентификатора для <see cref="P:StockSharp.Xaml.SecurityCreateWindow.Security"/>.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SecurityCreateWindow.Security">
+            <summary>
+            Инструмент.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.SessionHoldersPanel">
+            <summary>
+            Панель создания новых подключений <see cref="T:StockSharp.Messages.IMessageAdapterSessionHolder"/>.
+            </summary>
+            <summary>
+            SessionHoldersPanel
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.SessionHoldersPanel.RemoveSessionCommand">
+            <summary>
+            <see cref="T:System.Windows.Input.RoutedCommand"/> на удаление подключения.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.SessionHoldersPanel.EnableSessionCommand">
+            <summary>
+            <see cref="T:System.Windows.Input.RoutedCommand"/> на включение подключения.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SessionHoldersPanel.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.SessionHoldersPanel"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SessionHoldersPanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SessionHoldersPanel.SessionHolder">
+            <summary>
+            Сессия-агрегатор.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SessionHoldersPanel.ConnectorsInfo">
+            <summary>
+            Визуальное описание доступных подключений.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.SessionHoldersPanel.ConnectorsChanged">
+            <summary>
+            Событие изменения настроек.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.SessionHoldersPanel.CheckConnectionState">
+            <summary>
+            Событие проверки состояния соединения
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.ConnectorInfo">
+            <summary>
+            Информация о подключении.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.ConnectorInfo.#ctor(System.String,System.Type,StockSharp.Logging.LogLevels)">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.ConnectorInfo"/>.
+            </summary>
+            <param name="name">Название.</param>
+            <param name="sessionHolderType">Тип контейнера для сессии.</param>
+            <param name="logLevel">Уровень логирования.</param>
+        </member>
+        <member name="P:StockSharp.Xaml.ConnectorInfo.Name">
+            <summary>
+            Название подключения.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.ConnectorInfo.SessionHolderType">
+            <summary>
+            Тип контейнера для сессии.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.ConnectorInfo.LogLevel">
+            <summary>
+            Уровень логирования.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.SessionHoldersWindow">
+            <summary>
+            Окно создания новых подключений <see cref="T:StockSharp.Messages.IMessageAdapterSessionHolder"/>.
+            </summary>
+            <summary>
+            SessionHoldersWindow
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SessionHoldersWindow.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.SessionHoldersWindow"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SessionHoldersWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.SessionHoldersWindow.CheckConnectionState">
+            <summary>
+            Событие проверки состояния соединения
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SessionHoldersWindow.SessionHolder">
+            <summary>
+            Сессия-агрегатор.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SessionHoldersWindow.ConnectorsInfo">
+            <summary>
+            Визуальное описание доступных подключений.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.SessionHolderWindow">
+            <summary>
+            Окно редактирования настроек подключения <see cref="T:StockSharp.Messages.IMessageAdapterSessionHolder"/>.
+            </summary>
+            <summary>
+            SessionHolderWindow
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SessionHolderWindow.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.SessionHolderWindow"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SessionHolderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SessionHolderWindow.SessionHolder">
+            <summary>
+            Контейнер для сессии.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.SecurityLookupPanel">
+            <summary>
+            Панель поиска инструментов.
+            </summary>
+            <summary>
+            SecurityLookupPanel
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.SecurityLookupPanel.SearchSecurityCommand">
+            <summary>
+            <see cref="T:System.Windows.Input.RoutedCommand"/> для <see cref="E:StockSharp.Xaml.SecurityLookupPanel.Lookup"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SecurityLookupPanel.#ctor">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.SecurityLookupPanel"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.SecurityLookupPanel.Load(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Загрузить настройки.
+            </summary>
+            <param name="storage">Хранилище настроек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.SecurityLookupPanel.Save(Ecng.Serialization.SettingsStorage)">
+            <summary>
+            Сохранить настройки.
+            </summary>
+            <param name="storage">Хранилище настроек.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.SecurityLookupPanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.SecurityLookupPanel.Filter">
+            <summary>
+            Фильтр для поиска инструментов.
+            </summary>
+        </member>
+        <member name="E:StockSharp.Xaml.SecurityLookupPanel.Lookup">
+            <summary>
+            Событие запуска поиска инструментов.
+            </summary>
+        </member>
+        <member name="T:StockSharp.Xaml.TargetPlatformWindow">
+            <summary>
+            Компонент для выбора платформы для приложения.
+            </summary>
+            <summary>
+            TargetPlatformWindow
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.TargetPlatformWindow.AppNameProperty">
+            <summary>
+            <see cref="T:System.Windows.DependencyProperty"/> для <see cref="P:StockSharp.Xaml.TargetPlatformWindow.AppName"/>.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.TargetPlatformWindow.AppIconProperty">
+            <summary>
+            <see cref="T:System.Windows.DependencyProperty"/> для <see cref="P:StockSharp.Xaml.TargetPlatformWindow.AppIcon"/>.
+            </summary>
+        </member>
+        <member name="F:StockSharp.Xaml.TargetPlatformWindow.AutoStartProperty">
+            <summary>
+            <see cref="T:System.Windows.DependencyProperty"/> для <see cref="P:StockSharp.Xaml.TargetPlatformWindow.AutoStart"/>.
+            </summary>
+        </member>
+        <member name="M:StockSharp.Xaml.TargetPlatformWindow.#ctor(System.Boolean)">
+            <summary>
+            Создать <see cref="T:StockSharp.Xaml.TargetPlatformWindow"/>.
+            </summary>
+            <param name="settingsMode">Режим.</param>
+        </member>
+        <member name="M:StockSharp.Xaml.TargetPlatformWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.TargetPlatformWindow.AppName">
+            <summary>
+            Название приложения.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.TargetPlatformWindow.AppIcon">
+            <summary>
+            Иконка приложения.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.TargetPlatformWindow.AutoStart">
+            <summary>
+            Автозапуск выбранной конфигурации.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.TargetPlatformWindow.Features">
+            <summary>
+            Доступный функционал для каждой платформы.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.TargetPlatformWindow.SelectedPlatform">
+            <summary>
+            Выбранная платформа.
+            </summary>
+        </member>
+        <member name="P:StockSharp.Xaml.TargetPlatformWindow.SelectedCulture">
+            <summary>
+            Выбранная культура.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>
